@@ -5,15 +5,13 @@ services:
     image: s1
     volumes:
       - vol1:/volume
-    command:
-      - ls /volume
+    command: ls /volume
 
   s2:
     image: alpine
     volumes:
       - vol1:/my_volume
-    command:
-      - ls /
+    command: ls /
 
 volumes:
   vol1:
