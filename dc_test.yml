@@ -14,7 +14,7 @@ services:
     volumes:
       - vol1:/my_volume
     command:
-      - ls /my_volume
+      - ls /
 
 volumes:
   vol1:
