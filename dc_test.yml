@@ -2,8 +2,7 @@ version: "3.6"
 services:
 
   s1:
-    build:
-      dockerfile: Dockerfile1
+    image: s1
     volumes:
       - vol1:/volume
     command:
