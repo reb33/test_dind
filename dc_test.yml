@@ -11,7 +11,7 @@ services:
     image: alpine
     volumes:
       - vol1:/my_volume
-    command: ls /
+    command: ls /my_volume
 
 volumes:
   vol1:
