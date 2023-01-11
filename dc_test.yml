@@ -6,6 +6,8 @@ services:
       dockerfile: Dockerfile1
     volumes:
       - vol1:/volume
+    command:
+      - ls /volume
 
   s2:
     image: alpine
