@@ -8,4 +8,5 @@ test:
   script:
     - docker images
     - docker run hello-world
+    - docker build -f Dockerfile1 . -t s1
     - docker-compose -f dc_test.yml up --build
